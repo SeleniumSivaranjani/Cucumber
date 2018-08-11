@@ -6,10 +6,11 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src/test/java/features"}, 
-glue= {"pages","wdMethods"},dryRun=true, 
+//glue= {"pages","wdMethods"}, dryRun=true, 
 strict=true,
 //plugin= {"preety","html:target/report"},//target report path
-tags= {"@smoke","@sanity"}, monochrome=true)
+//tags= {"@smoke","@sanity"},
+monochrome=true)
 //monochrome is used to get the perfect time taken for execution
 //features and glue are tags.
 //tags is similar to groups

@@ -26,6 +26,7 @@ public  ViewLead()
 		click(eleEdit);
 		return new EditLead();
 	}
+	@And("Click Delete")
 	 public MyLead clickDelete() {
 		 click(eleDelete);
 		 return new MyLead();

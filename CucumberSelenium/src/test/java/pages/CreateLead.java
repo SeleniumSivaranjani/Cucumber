@@ -4,7 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-
 import cucumber.api.java.en.And;
 import wdMethods.SeMethods;
 
@@ -14,7 +13,6 @@ public class CreateLead extends SeMethods {
 	public CreateLead() {
 		PageFactory.initElements(driver, this);
 	}
-
 	@FindBy(how=How.ID, using ="createLeadForm_companyName")
 	private WebElement elecmyName;
 	@FindBy(how=How.ID, using = "createLeadForm_firstName")
