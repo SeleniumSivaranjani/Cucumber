@@ -24,6 +24,7 @@ public class MyLead extends SeMethods{
 		click(FindLeads);
 		return new FindLead();
 	}
+	@And ("Click Merge Lead")
 	public MergeLeads clickMergeLeads() {
 		click(MergeLeads);
 		return new MergeLeads();

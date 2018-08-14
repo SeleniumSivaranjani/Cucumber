@@ -31,6 +31,7 @@ public  ViewLead()
 		 click(eleDelete);
 		 return new MyLead();
 	 }
+	@And ("Click Duplicate Lead")
 	 public DuplicateLead clickDuplicate() {
 		 click (eleDuplicate);
 		 return new DuplicateLead();
