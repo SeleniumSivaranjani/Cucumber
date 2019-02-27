@@ -44,13 +44,5 @@ public class CrystalCruises {
 		// 
 		System.out.println(driver.getCurrentUrl());
 		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }
